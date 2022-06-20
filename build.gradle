@@ -1,7 +1,10 @@
 plugins {
     id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
+mainClassName = 'xyz.maywr.filecrypter.Bootstrap'
 group 'org.example'
 version '1.0-SNAPSHOT'
 

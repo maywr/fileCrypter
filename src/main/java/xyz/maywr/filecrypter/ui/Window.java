@@ -174,7 +174,7 @@ public class Window extends JFrame
 			}
 			FileUtils.writeToFile( f, decrypted );
 			fileInfoArea.setText( fileInfoArea.getText().replace( "encrypted?: true", "encrypted?: false" ) );
-			JOptionPane.showMessageDialog( this, "successfully encrypted " + f.getName(), Bootstrap.TITLE, JOptionPane.INFORMATION_MESSAGE );
+			JOptionPane.showMessageDialog( this, "successfully decrypted " + f.getName(), Bootstrap.TITLE, JOptionPane.INFORMATION_MESSAGE );
 		} );
 	}
 
