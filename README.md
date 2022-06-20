@@ -8,7 +8,7 @@
 * its secure. files is encrypted in AES256 which is perfect and secure encrypting method
 * easy to use
 
-###why i made it
+### why i made it
 no idea. just had nothing to do
 
 ### todo 
